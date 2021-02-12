@@ -1,0 +1,28 @@
+@import url("https://use.typekit.net/jrz6wrd.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mainContainer {
+  width: 0%;
+  height: 100vh;
+  background: #363a5d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /*this is where gsap starts from*/
+}
+
+.heroText {
+  font-size: 5rem;
+}
