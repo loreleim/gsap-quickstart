@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pol-ticker {
+width: 100vw;
+}
+
+.pol-ticker__wrapper {
+  width: 100vw;
+  height: 50px;
+  position: relative;
+}
+
+.pol-ticker__individualRow {
+  position: relative;
+
+}
+
+.pol-ticker__clientLogo {
+  width: 20vw;
+  height: 50px;
+
+  overflow: hidden;
+  background-color: lavender;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pol-ticker__clientLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
