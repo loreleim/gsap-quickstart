@@ -24,7 +24,7 @@
       );
 
       //Define Timeline
-      //var timelineOne = gsap.timeline({repeat: 2});
+      var timelineOne = gsap.timeline({repeat: 2});
 
       const wrapDetails = gsap.utils.unitize(gsap.utils.wrap(-childWidth, (windowWidth * 2) - childWidth));
 
